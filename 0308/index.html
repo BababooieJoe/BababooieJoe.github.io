@@ -15,6 +15,7 @@
             margin:20px;
             margin-left:auto;
             margin-right:auto;
+            position:relative;
 
         }
         #div1
@@ -23,6 +24,8 @@
             height:100px;
             background-color:lightcoral;
             margin-bottom:10px;
+            position:static;
+            bottom:0px;
         }
         #div2
         {
@@ -30,6 +33,7 @@
             height: 100px;
             background-color: lightcyan;
             margin-bottom: 10px;
+            position:static;
         }
         #div3 
         {
@@ -37,6 +41,8 @@
             height: 100px;
             background-color: lightpink;
             margin-bottom: 10px;
+            position:absolute;
+            bottom:5px;
         }
         #div4
         {
@@ -44,6 +50,7 @@
             height: 100px;
             background-color: lightseagreen;
             margin-bottom: 10px;
+            position:sticky;
         }
         #div5 
         {
@@ -51,6 +58,7 @@
             height: 100px;
             background-color: lightsalmon;
             margin-bottom: 10px;
+            position:absolute;
         }
         #div6
         {
@@ -58,6 +66,22 @@
             height: 100px;
             background-color: lime;
             margin-bottom: 10px;
+        }
+        .sp1
+        {
+            width:100px;
+            height:100px;
+            background-color:mediumslateblue;
+            margin:10px;
+            display:inline-block;
+        }
+        .dv1 
+        {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            margin: 10px;
+            display:block;
         }
 
     </style>
@@ -70,14 +94,23 @@
 </head>
 
 <body>
+    <span class="sp1">1</span>
+    <span class="sp1">2</span>
+    <span class="sp1">3</span>
+
+    <div class="dv1"></div>
+    <div class="dv1"></div>
+    <div class="dv1"></div>
+
+
 
     <div id="main">
-        <div id="div1">div</div>
-        <div id="div2">div</div>
-        <div id="div3">div</div>
-        <div id="div4">div</div>
-        <div id="div5">div</div>
-        <div id="div6">div</div>
+        <div id="div1">div1</div>
+        <div id="div2">div2</div>
+        <div id="div3">div3</div>
+        <div id="div4">div4</div>
+        <div id="div5">div5</div>
+        <div id="div6">div6</div>
 
 
 
